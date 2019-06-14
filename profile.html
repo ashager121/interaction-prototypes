@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="interactions.js"></script>
+</head>
+
+<body>
+    <header class="container">
+        <div class="headerElements">
+            <div><img src="./img/menu.png" id="headerElements__menu" /></div>
+            <div class="headerElements__profile">
+                <img src="./img/person.png" id="profilePicture" />
+                <h3>Bella Jackson</h3>
+            </div>
+            <div><img src="./img/settings.png" id="headerElements__settings" /></div>
+        </div>
+        <section class="pageTitles">
+            <div class="tabs">
+                <div class="interests tab1">
+                    <img src="./img/heartpulse-gray.png" onClick="interestsClick()"
+                        class="pageTitles__icon tab_panel1" />
+                    <p>Interests</p>
+                </div>
+                <div class="volunteer tab2">
+                    <img src="./img/bookopen-white.png" onClick="volunteerClick()"
+                        class="pageTitles__icon tab_panel2" />
+                    <p>Volunteer History</p>
+                </div>
+                <div class="badges">
+                    <img src="./img/jewel-gray.png" class="pageTitles__icon" />
+                    <p>Badges</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="animation-wrapper">
+        <div class="section-wrapper" style="transform: translateX(-100%);">
+            <section class="interestsBody" id="interestsBody">
+                <h3>My Interests</h3>
+                <div class="interestsImages">
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/animals.png" class="interestsImages__images" />
+                    </div>
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/hunger.png" class="interestsImages__images" />
+                    </div>
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/children-family.png" class="interestsImages__images" />
+                    </div>
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/crisis.png" class="interestsImages__images" />
+                    </div>
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/humans.png" class="interestsImages__images" />
+                    </div>
+                    <div class="interestsImages__image-wrapper">
+                        <img src="./img/interests/environment.png" class="interestsImages__images" />
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>Edit Interests</button>
+                </div>
+            </section>
+            <section class="profileBody" id="profileBody">
+                <div class="profileBody__gleaners">
+                    <p>9/20/18</p>
+                    <p>Gleaner's</p>
+                    <div>
+                        <img src="./img/info.png" class="info" />
+                    </div>
+                </div>
+                <div class="profileBody__secondHelpings">
+                    <p>9/14/18</p>
+                    <p>Second Helpings</p>
+                    <div>
+                        <img src="./img/info.png" class="info" />
+                    </div>
+                </div>
+                <div class="profileBody__zoo">
+                    <p>9/09/18</p>
+                    <p>Indianapolis Zoo</p>
+                    <div>
+                        <img src="./img/info.png" class="info" />
+                    </div>
+                </div>
+                <h3>Load More</h3>
+                <button class="logBtn">Log Hours<img src="./img/clock.png" id="clock" /></button>
+            </section>
+        </div>
+    </div>
+    <footer class="container">
+        <img src="./img/search.png" id="search" />
+        <img src="./img/profile.png" id="profile" />
+    </footer>
+</body>
+
+</html>

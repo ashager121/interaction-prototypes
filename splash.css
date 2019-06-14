@@ -1,0 +1,27 @@
+.vru {
+    background-image: linear-gradient(rgba(45,49,66) ,rgba(13, 38, 79, 0.7));
+    max-width: 450px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.vru-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    animation-name: vruLogo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.vru-logo__img {
+    padding-top: 100px;
+    max-width: 150px;
+    height: 150px;
+}
+
+@keyframes vruLogo {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

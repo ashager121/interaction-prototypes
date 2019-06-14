@@ -1,0 +1,138 @@
+body {
+    color: white;
+}
+body * {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+button {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0083FF;
+    width: 225px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+header {
+    background-image: linear-gradient(rgba(45,49,66) ,rgba(13, 38, 79, 0.7));
+}
+h3 {
+    display: block;
+    margin: 0 auto;
+ }
+ footer {
+    background-color: white;
+}
+#profilePicture {
+    margin-top: 30px;
+}
+#search, #profile {
+    height: 35px;
+    width: 35px;
+}
+
+.profileBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.logBtn {
+    margin-top: 35px;
+}
+
+.profileBody__gleaners, .profileBody__secondHelpings, .profileBody__zoo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-items:center;
+}
+#headerElements__menu, #headerElements__settings {
+    height: auto;
+    max-width: 35px;
+    margin-top: 30px;
+}
+#clock {
+    height: auto;
+    max-width: 20px;
+}
+.info {
+    height: auto;
+    max-width: 25px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+.interests, .volunteer, .badges {
+    margin-top: 10px;
+    width: 33%;
+    text-align: center;
+}
+.animation-wrapper {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(45,49,66);
+}
+.section-wrapper {
+    display: flex;
+    white-space: nowrap;
+    transition: .35s cubic-bezier(0.18, 1.14, 0.32, 1.18);
+}
+.animation-wrapper, .container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+header, .profileBody,.interestsBody , footer {
+    width: 100%;
+    min-width: 450px;
+}
+
+.headerElements {
+    display: flex;
+    justify-content: space-around;
+}
+.headerElements__profile img{
+    height: auto;
+    max-width: 150px;
+}
+.headerElements__profile h3 {
+    text-align: center;
+}
+.pageTitles__icon {
+    height: auto;
+    max-width: 30px;
+}
+.profileBody,.interestsBody {
+    background-color: rgba(45,49,66);
+}
+.interestsImages {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.interestsImages__image-wrapper {
+    width: 33.33%;
+}
+.interestsImages__images {
+    padding: 20px;
+}
+.tab1.active{
+    left: 0;
+  }
+  
+  .tab2.active{
+    left: 50%;
+  }
+
+  
+  

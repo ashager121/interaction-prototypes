@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <section class="createForm" id="createForm">
+        <div class="topSection">
+            <img id="backArrow" src="./img/forms/back-arrow.png">
+            <h3>Create an Account</h3>
+        </div>
+        <div class="createAccount">
+            <form id="loginForm">
+                <div class="formInput">
+                    <label id="whatsName">What's your name?</label>
+                    <input type="text" id="username">
+                    <label id="subName" for="name">Enter your first and last name.</label>
+                </div>
+                <div class="formInput">
+                    <label id="whatsEmail">What's your email?</label>
+                    <input type="email" id="email">
+                    <label id="subEmail" for="email">You'll need to confirm this email later.</label>
+                </div>
+                <div class="formInput">
+                    <label id="enterPword">Enter a password.</label>
+                    <input type="password" id="password">
+                    <label id="subPword" for="pword">Use at least 8 characters.</label>
+                </div>
+                <button type="submit" id="formSubmit">Create Account</button>
+            </form>
+
+
+            <p>Already have an account? <strong>Sign In.</strong></p>
+        </div>
+    </section>
+    <script src="shake.js"></script>
+</body>
+
+</html>
