@@ -29,6 +29,8 @@ input {
     border-style: solid;
     border-width: 0 0 1px 0;
     background: none;
+    color: white;
+    font-size: 1.125em;
 }
 /* Show green borders when valid */
 input[data-state="valid"] {
